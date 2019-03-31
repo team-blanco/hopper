@@ -106,7 +106,7 @@ Hopper is an app that notifies users of local bars happy hours and special deals
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
    | password      | String   | private password used to authenticate users |
-   | username       | String   | chosen alias of user |
+   | name       | String   | first/last name of user |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
    
