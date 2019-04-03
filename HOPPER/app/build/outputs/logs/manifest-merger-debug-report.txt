@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.hopper.MainActivity
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:20:5-44
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/HOPPER/app/src/main/AndroidManifest.xml
