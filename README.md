@@ -94,9 +94,9 @@ Hopper is an app that notifies users of local bars happy hours and special deals
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
    | distance      | Number   | distance from business |
-   | image         | File     | image of storefront/business |
+   | title         | String   | title of business event/deal |
    | details       | String   | description of business event/deal |
-   | business      | Pointer to Business  | business name, physical location and description |
+   | business      | Pointer to Business  | business name, physical location, and image |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
    
@@ -106,7 +106,8 @@ Hopper is an app that notifies users of local bars happy hours and special deals
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
    | password      | String   | private password used to authenticate users |
-   | name       | String   | first/last name of user |
+   | name          | String   | first/last name of user |
+   | email         | String   | email for user |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
    
@@ -117,7 +118,9 @@ Hopper is an app that notifies users of local bars happy hours and special deals
    | objectId      | String   | unique id for the user post (default field) |
    | businessName  | String   | name of business |
    | location      | String   | physical location of business |
-   | details       | String   | description of business |
+   | image         | File     | fimage of storefront/business |
+   | website       | String   | website for business |
+   | phoneNum      | String   | phone number of business |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
    
