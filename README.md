@@ -167,3 +167,8 @@ Hopper is an app that notifies users of local bars happy hours and special deals
    Post:
    
    <img src="https://i.imgur.com/K0BKf9z.png" width=800><br>
+   
+   #### PROGRESS UPDATE: APRIL 8th
+   
+   Prototype:
+   <img src="https://media.giphy.com/media/jOUjAlNuuSzvQZqoay/giphy.gif" width=800><br>
