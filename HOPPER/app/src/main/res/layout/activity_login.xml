@@ -1,126 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hopper_background">
 
-    <EditText
-        android:id="@+id/etLoginEmail"
+
+    <ImageView
+        android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="90dp"
-        android:layout_marginEnd="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:contentDescription="hopper_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_hopper_logo" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="295dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="180dp"
         android:ems="10"
-        android:hint="@string/email"
-        android:importantForAutofill="no"
+        android:fontFamily="@font/raleway"
+        android:hint="Email"
         android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLoginTitle"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
 
     <EditText
-        android:id="@+id/etLoginPassword"
-        android:layout_width="wrap_content"
+        android:id="@+id/etPassword"
+        android:layout_width="295dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="230dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/password"
-        android:importantForAutofill="no"
+        android:fontFamily="@font/raleway"
+        android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etLoginEmail"
-        app:layout_constraintVertical_bias="0.0"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmailAddress" />
 
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="209dp"
+    <ImageView
+        android:id="@+id/ivLogin"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/log_in"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etLoginPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:srcCompat="@drawable/ic_login_box" />
+
+    <ImageView
+        android:id="@+id/ivOrLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogin"
+        app:srcCompat="@drawable/ic_orlines" />
 
     <TextView
-        android:id="@+id/tvOR"
+        android:id="@+id/tvLoginWithFacebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="30dp"
-        android:text="@string/or"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnFBLogin"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto"
+        android:text="Log in with Facebook"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines" />
 
-    <Button
-        android:id="@+id/btnFBLogin"
+    <ImageView
+        android:id="@+id/ivFacebookIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/log_in_with_facebook"
-        app:layout_constraintBottom_toTopOf="@+id/tvExistSignup"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvOR" />
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvLoginWithFacebook"
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines"
+        app:srcCompat="@drawable/ic_facebook_icon" />
 
     <TextView
-        android:id="@+id/tvExistSignup"
+        android:id="@+id/ivAlreadyHave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="90dp"
-        android:text="@string/don_t_have_an_account_create_account"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/raleway_thin"
+        android:text="Already have an account?"
+        android:textColor="#A2999D"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFBLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/tvLoginWithFacebook" />
 
     <TextView
-        android:id="@+id/tvLoginTitle"
+        android:id="@+id/tvRegisterMover"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/hopper"
-        android:textSize="36sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Create account."
+        android:textColor="#958B90"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/ivAlreadyHave"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoginWithFacebook" />
 
-    <TextView
-        android:id="@+id/tvLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/log_in"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/etLoginEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

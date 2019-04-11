@@ -21,12 +21,13 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+    /*
         etLoginEmail = findViewById(R.id.etLoginEmail);
         etLoginPassword = findViewById(R.id.etLoginPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnFBLogin = findViewById(R.id.btnFBLogin);
         tvExistSignup = findViewById(R.id.tvExistSignup);
-
+*/
     }
 
 

@@ -23,12 +23,14 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+     /*
         etSignupEmail = findViewById(R.id.etSignupEmail);
         etSignupPassword = findViewById(R.id.etSignupPassword);
         btnSignup = findViewById(R.id.btnSignup);
         btnFBSignup = findViewById(R.id.btnFBSignup);
         tvExistLogin = findViewById(R.id.tvExistLogin);
-
+     */
     }
 
 
