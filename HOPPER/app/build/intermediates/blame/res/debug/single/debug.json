@@ -296,32 +296,32 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_feed.xml.flat",
         "source": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\src\\main\\res\\layout\\fragment_feed.xml"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -360,12 +360,12 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\70b4fc348c1feb215219c975058964b9\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\70b4fc348c1feb215219c975058964b9\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -432,12 +432,12 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable\\tooltip_frame_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
@@ -556,12 +556,12 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -588,12 +588,12 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -664,12 +664,12 @@
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
-        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\anim\\abc_fade_out.xml"
-    },
-    {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
+        "source": "C:\\Users\\Jovon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2376be18ced9eba035d065c24486b19f\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\Jovon\\AndroidStudioProjects\\Hopper\\HOPPER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
