@@ -10,17 +10,22 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.hopper.fragments.PostsFragment;
+import com.example.hopper.fragments.MapFragment;
+import com.google.android.gms.maps.GoogleMap;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         final FragmentManager fragmentManager = getSupportFragmentManager();
+
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
@@ -33,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new PostsFragment();
                         Toast.makeText(MainActivity.this, "Home!", Toast.LENGTH_SHORT).show();
                         break;
-//                    case R.id.action_map:
-//                        fragment = new Map();
-//                        Toast.makeText(MainActivity.this, "Compose!", Toast.LENGTH_SHORT).show();
-//                        break;
+                    case R.id.action_map:
+                        fragment = new MapFragment();
+                        Toast.makeText(MainActivity.this, "Navigation!", Toast.LENGTH_SHORT).show();
+                     break;
 //                    case R.id.action_profile:
 //                        fragment = new ProfileFragment();
 //                        Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
@@ -49,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
         });
         // Set default selection
         bottomNavigationView.setSelectedItemId(R.id.action_home);
+
     }
+
 
 }
