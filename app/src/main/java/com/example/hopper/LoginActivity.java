@@ -43,6 +43,13 @@ public class LoginActivity extends AppCompatActivity {
                 login(email, password);
             }
         });
+        tvExistSignup.setOnClickListener(new View.OnClickListener(){
+            
+            @Override
+            public void onClick(View view){
+                goRegisterActivity();
+            }
+        });
     }
 
     private void login(String email, String password) {
@@ -63,6 +70,13 @@ public class LoginActivity extends AppCompatActivity {
     private void goMainActivity() {
         Log.d(TAG, "Navigating to Main Activity");
         Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
+    
+    private void goRegisterActivity() {
+        Log.d(TAG, "Navigating to Register Activity");
+        Intent i = new Intent(this, RegisterActivity.class);
         startActivity(i);
         finish();
     }
