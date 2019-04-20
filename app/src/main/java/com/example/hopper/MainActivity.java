@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.hopper.fragments.PostsFragment;
 import com.example.hopper.fragments.MapFragment;
+import com.example.hopper.fragments.ProfileFragment;
 import com.google.android.gms.maps.GoogleMap;
 
 
@@ -42,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new MapFragment();
                         Toast.makeText(MainActivity.this, "Navigation!", Toast.LENGTH_SHORT).show();
                      break;
-//                    case R.id.action_profile:
-//                        fragment = new ProfileFragment();
-//                        Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
+                    case R.id.action_profile:
+                        fragment = new ProfileFragment();
+                        Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
                     default:
                         break;
                 }
