@@ -25,14 +25,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="90dp"
         android:text="@string/don_t_have_an_account_create_account"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFBSignup" />
 
     <TextView
         android:id="@+id/tvOR2"
@@ -56,8 +57,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="100dp"
+        android:layout_marginBottom="582dp"
         android:text="@string/hopper"
         android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -67,44 +70,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="100dp"
+        android:layout_marginBottom="533dp"
         android:text="@string/sign_up"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/etFirstName"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRegsiterTitle" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etFirstName"
         android:layout_width="186dp"
         android:layout_height="48dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="207dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginBottom="476dp"
         android:ems="10"
         android:hint="@string/first_name"
+        android:importantForAutofill="no"
         android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/etLastName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSignup"
-        android:importantForAutofill="no" tools:targetApi="o" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="o" />
 
     <EditText
         android:id="@+id/etLastName"
         android:layout_width="182dp"
         android:layout_height="48dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="479dp"
         android:ems="10"
         android:hint="@string/lastname"
+        android:importantForAutofill="no"
         android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/etFirstName"
-        app:layout_constraintTop_toBottomOf="@+id/tvSignup"
-        android:importantForAutofill="no" tools:targetApi="o" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="o" />
 
     <EditText
         android:id="@+id/etSignupEmail"
