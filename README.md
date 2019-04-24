@@ -43,6 +43,7 @@ Hopper is an app that notifies users of local bars happy hours and special deals
 - [ ] Rating of business visible in details
 - [ ] Uber/Lyft feature 
 
+
 ## 2. Screen Archetypes
 
  * Login/ Register Screen  
