@@ -1,4 +1,4 @@
-#Tue Apr 16 21:17:07 EDT 2019
+#Wed Apr 24 18:47:02 EDT 2019
 base.0=/Users/andrewaziz/Documents/development/projects/hopper/app/build/intermediates/transforms/dexMerger/debug/1
 path.1=classes.dex
 renamed.1=classes2.dex

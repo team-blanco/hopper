@@ -100,7 +100,7 @@
         android:text="@string/log_in_with_facebook" />
 
     <TextView
-        android:id="@+id/tvExistSignup"
+        android:id="@+id/tvCreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"

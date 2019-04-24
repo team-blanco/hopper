@@ -1,6 +1,7 @@
 package com.example.hopper;
 
 import com.parse.ParseClassName;
+import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
@@ -11,7 +12,7 @@ public class Post extends ParseObject {
 
     // creating keys for different desired parse attributes
     public static final String KEY_DETAILS = "Details";
-//    public static final String KEY_IMAGE = "Image";
+    public static final String KEY_IMAGE = "Image";
     public static final String KEY_BUSINESS_NAME = "BusinessName";
 //    public static final String KEY_CREATED_AT = "createdAt";
 
@@ -25,9 +26,9 @@ public class Post extends ParseObject {
         put(KEY_DETAILS, description);
     }
 
-//    public ParseFile getImage() {
-//        return getParseFile(KEY_IMAGE);
-//    }
+    public ParseFile getImage() {
+        return getParseFile(KEY_IMAGE);
+    }
 
     public String getUser() {
         return getString(KEY_BUSINESS_NAME);

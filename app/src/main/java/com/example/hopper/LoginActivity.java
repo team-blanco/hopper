@@ -16,14 +16,13 @@ import com.parse.ParseUser;
 public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
-    private static final String TEST = "Test";
 
     // pulling out references to UI elements on login screen
     private EditText etLoginEmail;
     private EditText etLoginPassword;
     private Button btnLogin;
     private Button btnFBLogin;
-    private TextView tvExistSignup;
+    private TextView tvCreate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         etLoginPassword = findViewById(R.id.etLoginPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnFBLogin = findViewById(R.id.btnFBLogin);
-        tvExistSignup = findViewById(R.id.tvExistSignup);
+        tvCreate = findViewById(R.id.tvCreate);
         btnLogin.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -43,6 +42,19 @@ public class LoginActivity extends AppCompatActivity {
                 login(email, password);
             }
         });
+
+        tvCreate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goRegisterActivity();
+            }
+        });
+    }
+
+    private void goRegisterActivity() {
+        Log.d(TAG, "Navigating to Register Activity");
+        Intent i = new Intent(this, RegisterActivity.class);
+        startActivity(i);
     }
 
     private void login(String email, String password) {

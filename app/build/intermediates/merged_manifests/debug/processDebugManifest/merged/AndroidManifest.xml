@@ -21,7 +21,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.hopper.RegisterActivity" />
         <activity android:name="com.example.hopper.MainActivity" />
         <activity android:name="com.example.hopper.LoginActivity" >
             <intent-filter>

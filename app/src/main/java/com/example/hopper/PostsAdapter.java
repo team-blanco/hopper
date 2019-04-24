@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.parse.ParseFile;
+
 import java.util.List;
 
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> {
@@ -70,10 +72,10 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
 
         public void bind(Post post) {
             tvBName.setText(post.getUser());
-//            ParseFile image = post.getImage();
-//            if (image != null) {
-//                GlideApp.with(context).load(image.getUrl()).into(ivPicture);
-//            }
+            ParseFile image = post.getImage();
+            if (image != null) {
+                GlideApp.with(context).load(image.getUrl()).into(ivPicture);
+            }
             tvDeal.setText(post.getDescription());
         }
     }

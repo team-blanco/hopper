@@ -1232,9 +1232,9 @@ int id transition_transform 0x7f0800cf
 int id tvBName 0x7f0800d0
 int id tvContact 0x7f0800d1
 int id tvCountdownPlaceholder 0x7f0800d2
-int id tvDeal 0x7f0800d3
-int id tvExistLogin 0x7f0800d4
-int id tvExistSignup 0x7f0800d5
+int id tvCreate 0x7f0800d3
+int id tvDeal 0x7f0800d4
+int id tvExistLogin 0x7f0800d5
 int id tvGreeting 0x7f0800d6
 int id tvLocation 0x7f0800d7
 int id tvLogin 0x7f0800d8

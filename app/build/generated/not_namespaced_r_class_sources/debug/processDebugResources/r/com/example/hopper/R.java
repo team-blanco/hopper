@@ -5320,9 +5320,9 @@ public final class R {
     public static final int tvBName=0x7f0800d0;
     public static final int tvContact=0x7f0800d1;
     public static final int tvCountdownPlaceholder=0x7f0800d2;
-    public static final int tvDeal=0x7f0800d3;
-    public static final int tvExistLogin=0x7f0800d4;
-    public static final int tvExistSignup=0x7f0800d5;
+    public static final int tvCreate=0x7f0800d3;
+    public static final int tvDeal=0x7f0800d4;
+    public static final int tvExistLogin=0x7f0800d5;
     public static final int tvGreeting=0x7f0800d6;
     public static final int tvLocation=0x7f0800d7;
     public static final int tvLogin=0x7f0800d8;
