@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hopper</string>
+    <string name="google_maps_api_key">AIzaSyBFCTfulTQU6k_gOurO4rvthCWO1jsFBh4</string>
 </resources>
