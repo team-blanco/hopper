@@ -76,6 +76,9 @@ Hopper is an app that notifies users of local bars happy hours and special deals
      => Post Screen
      =>Detail Screen
 
+### Final Product Walkthrough
+<img src="https://github.com/team-blanco/hopper/blob/andrew/hopperwalkthrough.gif" width=200>
+
 ## Wireframes
 <img src="https://i.imgur.com/worzuk2.png" width=800><br>
 <img src="https://i.imgur.com/XfBHlgW.png" width=800><br>
@@ -85,7 +88,7 @@ Hopper is an app that notifies users of local bars happy hours and special deals
 
 
 ### [BONUS] Interactive Prototype
-<img src="https://github.com/team-blanco/hopper/blob/andrew/hopperwalkthrough.gif" width=200>
+<img src="https://github.com/team-blanco/hopper/blob/master/walkthrough.gif" width=200>
 
 ## Schema 
 ### Models
@@ -153,6 +156,10 @@ Hopper is an app that notifies users of local bars happy hours and special deals
       - (Read/GET) Query business details (name, address, pictures, etc.)
       ```swift
         // GET /business/search
+        
+   #### PROGRESS UPDATE: UNIT 14 April 30
+   <img src="https://github.com/team-blanco/hopper/blob/andrew/hopperwalkthrough.gif" width=200>
+
       
    #### PROGRESS UPDATE: UNIT 10 April 3rd
    
