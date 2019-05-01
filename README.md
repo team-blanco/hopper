@@ -29,17 +29,16 @@ Hopper is an app that notifies users of local bars happy hours and special deals
 - [x] User Registration
 - [x] User can Login
 - [x] Successfully connect to Parse Server
-- [ ] User can view feed of nearby bars
-- [ ] User can see a detailed view of each bar to see description and happy hour info 
+- [x] User can view feed of nearby bars
 - [x] User can view maps page with bars marked
 
 
 **Optional Nice-to-have Stories**
  
 - [ ] User Verification
-- [ ] App passes navigation to Maps App
+- [x] App passes navigation to Maps App
 - [ ] User can add deals to feed
-- [ ] User can view businesses in search radius
+- [x] User can view businesses in search radius
 - [ ] Rating of business visible in details
 - [ ] Uber/Lyft feature 
 
@@ -86,7 +85,7 @@ Hopper is an app that notifies users of local bars happy hours and special deals
 
 
 ### [BONUS] Interactive Prototype
-<img src="https://media.giphy.com/media/8vqEFjYoczsuF6Wh4U/giphy.gif" width=200>
+<img src="https://github.com/team-blanco/hopper/blob/andrew/hopperwalkthrough.gif" width=200>
 
 ## Schema 
 ### Models
