@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Tue Apr 16 13:55:56 EDT 2019
-1.base=/Users/andrewaziz/Documents/development/projects/hopper/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Apr 30 22:48:32 EDT 2019
+1.base=/Users/andrewaziz/Documents/development/projects/hopper/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/Users/andrewaziz/Documents/development/projects/hopper/app/build/intermediates/transforms/dexMerger/debug/1
+0.base=/Users/andrewaziz/Documents/development/projects/hopper/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 1.path=classes.dex

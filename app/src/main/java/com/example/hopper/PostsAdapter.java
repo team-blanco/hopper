@@ -1,8 +1,10 @@
 package com.example.hopper;
 
 import android.content.Context;
+import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +13,9 @@ import android.widget.TextView;
 
 import com.parse.ParseFile;
 
+import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> {
 
@@ -51,24 +55,30 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         notifyDataSetChanged();
     }
 
+
+
     class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvBName;
         private ImageView ivPicture;
-        private TextView tvCountdown;
         private TextView tvDeal;
         private TextView tvLocation;
+        private TextView tvCountdown;
+        private CountDownTimer countDownTimer;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             tvBName = itemView.findViewById(R.id.tvBName);
             ivPicture = itemView.findViewById(R.id.ivPicture);
-            tvCountdown = itemView.findViewById(R.id.tvCountdownPlaceholder);
             tvDeal = itemView.findViewById(R.id.tvDeal);
-            tvLocation = itemView.findViewById(R.id.tvLocation);
+//            tvLocation = itemView.findViewById(R.id.tvLocation);
+            tvCountdown = itemView.findViewById(R.id.tvCountdownPlaceholder);
+
 
 
         }
+
 
         public void bind(Post post) {
             tvBName.setText(post.getUser());
@@ -77,6 +87,42 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
                 GlideApp.with(context).load(image.getUrl()).into(ivPicture);
             }
             tvDeal.setText(post.getDescription());
+            Date date = new Date();
+            long timeMilli = date.getTime();
+            //SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY-MM-DDTHH:mm:ss.SSSZ");
+            Date end = post.getEndDate();
+            Log.d("Date Pulled: ", end.toString());
+
+            startTimer(end.getTime() - timeMilli);
         }
+
+        public void startTimer(long END_DATE) {
+            countDownTimer = new CountDownTimer(END_DATE, 1000) {
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    String timeRemaining = String.format("%02d:%02d:%02d",
+                            TimeUnit.MILLISECONDS.toHours(millisUntilFinished),
+                            TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) -
+                                    TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millisUntilFinished)), // The change is in this line
+                            TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) -
+                                    TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished)));
+                    tvCountdown.setText("Time remaining: " + timeRemaining);
+
+                }
+
+                @Override
+                public void onFinish() {
+                    tvCountdown.setText("Deal expired");
+
+                }
+            }.start();
+        }
+
+
+
+
+
     }
+
+
 }

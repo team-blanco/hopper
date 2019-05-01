@@ -1,114 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:background="@drawable/bg_hopper_background">
 
-    <TextView
-        android:id="@+id/tvLoginTitle"
+
+    <ImageView
+        android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/hopper"
-        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:contentDescription="hopper_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/log_in"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/etLoginEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_hopper_logo" />
 
     <EditText
-        android:id="@+id/etLoginEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="100dp"
+        android:id="@+id/etEmailAddress"
+        android:layout_width="295dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="180dp"
         android:ems="10"
-        android:hint="@string/email"
-        android:importantForAutofill="no"
+        android:fontFamily="@font/raleway"
+        android:hint="Email"
         android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLoginTitle"
-        tools:targetApi="o" />
-    <android.support.design.widget.TextInputLayout
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailAddress" />
+
+    <ImageView
+        android:id="@+id/ivLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:passwordToggleEnabled="true">
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:srcCompat="@drawable/ic_login_box" />
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/etLoginPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="50dp"
-            android:ems="10"
-            android:hint="@string/password"
-            android:importantForAutofill="no"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etLoginEmail"
-            app:layout_constraintVertical_bias="0.0"
-            tools:targetApi="o" />
-    </android.support.design.widget.TextInputLayout>
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="206dp"
+    <ImageView
+        android:id="@+id/ivOrLines"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/log_in"
-       />
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogin"
+        app:srcCompat="@drawable/ic_orlines" />
 
     <TextView
-        android:id="@+id/tvOR"
+        android:id="@+id/ivAlreadyHave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/or"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/btnFBLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/log_in_with_facebook" />
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/raleway_thin"
+        android:text="Already have an account?"
+        android:textColor="#A2999D"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines" />
 
     <TextView
-        android:id="@+id/tvCreate"
-        android:layout_width="match_parent"
+        android:id="@+id/tvRegisterMover"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="100dp"
-        android:gravity="center_horizontal"
-        android:text="@string/don_t_have_an_account_create_account"
-        android:textSize="18sp" />
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Create account."
+        android:textColor="#958B90"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/ivAlreadyHave"
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines" />
 
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

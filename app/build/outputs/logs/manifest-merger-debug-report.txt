@@ -1,202 +1,278 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc218ed207a57da97bd09c9e11fe196d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:10:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e450ccd3b17dbb31b48cc486e146d88a/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/d9edb5f42e2e8ade668b0d6386347b8d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1251d25e769621470daee9fafe06cb0f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/edd6dd946f883040f6d3888f0f19641e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b323557959504db88bdf4a3bcb882e9d/AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d034ffc572166fcb3b111f852e4ddf8e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0ca60434f40a09bfac8b784127497085/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b2b600c026d2b285c80275eba714149/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:10:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6cf9c881faebe6f12d6cbccff245e0f2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/dbd7591143b4a9a5cea5ccffd54379d2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/2cd1abe43b2fadb3ef01507ea83a1083/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5caf428d3492f59bfc32f5679a65fef4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/849baa86cd766f6a53e273b65b5af36e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0712ce5b6cfa8684c7c57b4b374f1df1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b035d0b9251b1a30ec46e36acf5155e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d9056da02ed51161bc0ddf99862171fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/eda1aff7a2cf8c9147ff763ad8f3ff7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/7debe0a21f8e036026400d9fe31336cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/aa460612adadd5b7f5f0d3582b407a78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e9d2f3b9fb363ffe9acbac31e79acf42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d3fafce774db2a474db02375cc79c461/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0bbfa545045217989c65e3bc541c3b8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/438349ff3f92f9b9b2bfa6875b98c210/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/66370afae9823faa96ce5b877aea6199/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0e97cd2c1069041ce3cc26f569edafe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/89880eb9b02c3a1fa5c328e722fe4c2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5bc23a70e8a6c96987fbda6a52f87445/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/79deca849ee285205d24ce4d59cce7ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/bf5836db2ce9dfea7d9ee3f4257a2179/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a8a9508237a09928471ec87a870bed7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d2ebff67a569e48225e6129eae0eaf50/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/8636ee6861502893018761ece1626b3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e74e0977638d12f55b3625832eea0854/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/713129f67664523897390b9323ae7c41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/91e2be70f12154f33a81f45ae529b2bf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/f39fab02f20f70c6e1b8dcfd2b532914/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a5ebfb87b4bc1b09b95627851d88c827/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ac5db750709f94195ffe0fcf26ce47b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/06abae72906281e2629d3560230c08b2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b3a8c1cf9b9023e3b5ab43f04279dd8/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:19:9-34
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:18:9-32
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:5:5-66
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:19:5-67
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:19:5-67
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:19:5-67
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:20:5-79
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:20:5-79
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:20:5-79
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:9:5-27:19
-MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc218ed207a57da97bd09c9e11fe196d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc218ed207a57da97bd09c9e11fe196d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:9:5-20
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:22:5-20
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:22:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e450ccd3b17dbb31b48cc486e146d88a/AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e450ccd3b17dbb31b48cc486e146d88a/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:22:5-23:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b323557959504db88bdf4a3bcb882e9d/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b323557959504db88bdf4a3bcb882e9d/AndroidManifest.xml:9:5-20
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d034ffc572166fcb3b111f852e4ddf8e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d034ffc572166fcb3b111f852e4ddf8e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b2b600c026d2b285c80275eba714149/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b2b600c026d2b285c80275eba714149/AndroidManifest.xml:9:5-20
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:22:5-20
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6cf9c881faebe6f12d6cbccff245e0f2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6cf9c881faebe6f12d6cbccff245e0f2/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/dbd7591143b4a9a5cea5ccffd54379d2/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/dbd7591143b4a9a5cea5ccffd54379d2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5caf428d3492f59bfc32f5679a65fef4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5caf428d3492f59bfc32f5679a65fef4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/849baa86cd766f6a53e273b65b5af36e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/849baa86cd766f6a53e273b65b5af36e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/bf5836db2ce9dfea7d9ee3f4257a2179/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/bf5836db2ce9dfea7d9ee3f4257a2179/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d2ebff67a569e48225e6129eae0eaf50/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d2ebff67a569e48225e6129eae0eaf50/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:14:9-41
+	android:versionName
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:19:9-34
+	android:versionCode
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:18:9-32
 	android:roundIcon
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:17:9-40
-	android:usesCleartextTraffic
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:16:9-44
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:11:9-41
 activity#com.example.hopper.RegisterActivity
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:18:9-54
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:18:19-51
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:20:19-51
 activity#com.example.hopper.MainActivity
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:19:9-50
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:21:9-50
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:21:19-47
 activity#com.example.hopper.LoginActivity
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:20:19-48
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:22:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#com.google.android.gms.version
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:29:9-122
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:29:66-119
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:29:20-65
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:32:9-116
+	android:value
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:32:70-113
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:32:20-69
+meta-data#preloaded_fonts
+ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:34:9-36:57
+	android:resource
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:36:13-54
+	android:name
+		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml:35:13-43
 uses-sdk
 INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc218ed207a57da97bd09c9e11fe196d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc218ed207a57da97bd09c9e11fe196d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85d6be0b3f5f2199657427a2bd35f92b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a8fb1147e889496c8f6433760172af1a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:15:5-17:41
-MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/parse-1.18.5.aar/52536965ee8f1a3c4e69123f8c2cb6f1/AndroidManifest.xml:15:5-17:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e450ccd3b17dbb31b48cc486e146d88a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e450ccd3b17dbb31b48cc486e146d88a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b44e056d6c29fd53bbcaba151a42de7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/cd1931ddc18437922b4c8b183d07329f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/d9edb5f42e2e8ade668b0d6386347b8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/d9edb5f42e2e8ade668b0d6386347b8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f533d5d788c58df093b0c7f3085da16e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1c70327c1ae4745fa2c6b728e5f47182/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/9a2d764a086af90e34961c0b6c83bd5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1251d25e769621470daee9fafe06cb0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/1251d25e769621470daee9fafe06cb0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/758087f0f0ac216275e0deb68be898ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9f4ba627ff3d83fa636f25e78496463b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/06b2581d5c01cd7f404e8259f9efe9de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/95ce1a9832242e0a77adcb1462f740f7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/381e36ad4639f33e8927bdec8ba13eb3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57f4f42f9240e32342f54fee75f1f5d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/326892987c23e2de091fc5b80340b2ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/089473bdb7c9d2d0608b9c14be8ef1ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e36a299cf201638b34a5623c1f67bd5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b832503645cff3efc9699c47d46e7c8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/703d62b1d9d2ae1478ac3ba55add0ee8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/edd6dd946f883040f6d3888f0f19641e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/edd6dd946f883040f6d3888f0f19641e/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b323557959504db88bdf4a3bcb882e9d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b323557959504db88bdf4a3bcb882e9d/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31624e7bb4999320bc06e5683bd63ac7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0642ec50fde370ebedff686cfc9e6423/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/220226d97ee7666c068bcfeeac10c2bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b7747396de4ab4483fd7b2f97cd808bd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d551e457f8233c0ba81d1f301da569/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4c514e32710dc2b2f1efa4442ae8784/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/97ad22c04344efb4faef9614fab4aa84/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ac0c682f21b9040b2e33d93dd316b438/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4eb73c5825d8b42829b36bb9cb21b29f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d034ffc572166fcb3b111f852e4ddf8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d034ffc572166fcb3b111f852e4ddf8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0ca60434f40a09bfac8b784127497085/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0ca60434f40a09bfac8b784127497085/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b2b600c026d2b285c80275eba714149/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b2b600c026d2b285c80275eba714149/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:15:5-17:41
+MERGED from [com.github.parse-community.Parse-SDK-Android:parse:1.18.5] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b760f087d736cda291247470174cf758/AndroidManifest.xml:15:5-17:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6cf9c881faebe6f12d6cbccff245e0f2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6cf9c881faebe6f12d6cbccff245e0f2/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/dbd7591143b4a9a5cea5ccffd54379d2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/dbd7591143b4a9a5cea5ccffd54379d2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/2cd1abe43b2fadb3ef01507ea83a1083/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/2cd1abe43b2fadb3ef01507ea83a1083/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5caf428d3492f59bfc32f5679a65fef4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5caf428d3492f59bfc32f5679a65fef4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/849baa86cd766f6a53e273b65b5af36e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/849baa86cd766f6a53e273b65b5af36e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/292a8b7f744e30805919edf22e4358fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0712ce5b6cfa8684c7c57b4b374f1df1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0712ce5b6cfa8684c7c57b4b374f1df1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b035d0b9251b1a30ec46e36acf5155e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b035d0b9251b1a30ec46e36acf5155e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d9056da02ed51161bc0ddf99862171fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d9056da02ed51161bc0ddf99862171fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/eda1aff7a2cf8c9147ff763ad8f3ff7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/eda1aff7a2cf8c9147ff763ad8f3ff7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/7debe0a21f8e036026400d9fe31336cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/7debe0a21f8e036026400d9fe31336cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/aa460612adadd5b7f5f0d3582b407a78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/aa460612adadd5b7f5f0d3582b407a78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e9d2f3b9fb363ffe9acbac31e79acf42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e9d2f3b9fb363ffe9acbac31e79acf42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d3fafce774db2a474db02375cc79c461/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d3fafce774db2a474db02375cc79c461/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0bbfa545045217989c65e3bc541c3b8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0bbfa545045217989c65e3bc541c3b8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/438349ff3f92f9b9b2bfa6875b98c210/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/438349ff3f92f9b9b2bfa6875b98c210/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/66370afae9823faa96ce5b877aea6199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/66370afae9823faa96ce5b877aea6199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0e97cd2c1069041ce3cc26f569edafe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/0e97cd2c1069041ce3cc26f569edafe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/89880eb9b02c3a1fa5c328e722fe4c2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/89880eb9b02c3a1fa5c328e722fe4c2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5bc23a70e8a6c96987fbda6a52f87445/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/5bc23a70e8a6c96987fbda6a52f87445/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/79deca849ee285205d24ce4d59cce7ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/79deca849ee285205d24ce4d59cce7ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/c028c3a8e72691db9f5348b9ebbdcabe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/bf5836db2ce9dfea7d9ee3f4257a2179/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/bf5836db2ce9dfea7d9ee3f4257a2179/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a8a9508237a09928471ec87a870bed7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a8a9508237a09928471ec87a870bed7f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d2ebff67a569e48225e6129eae0eaf50/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/d2ebff67a569e48225e6129eae0eaf50/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/8636ee6861502893018761ece1626b3c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/8636ee6861502893018761ece1626b3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e74e0977638d12f55b3625832eea0854/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/e74e0977638d12f55b3625832eea0854/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/713129f67664523897390b9323ae7c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/713129f67664523897390b9323ae7c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/91e2be70f12154f33a81f45ae529b2bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/91e2be70f12154f33a81f45ae529b2bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/f39fab02f20f70c6e1b8dcfd2b532914/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/f39fab02f20f70c6e1b8dcfd2b532914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a5ebfb87b4bc1b09b95627851d88c827/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/a5ebfb87b4bc1b09b95627851d88c827/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ac5db750709f94195ffe0fcf26ce47b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ac5db750709f94195ffe0fcf26ce47b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/06abae72906281e2629d3560230c08b2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/06abae72906281e2629d3560230c08b2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b3a8c1cf9b9023e3b5ab43f04279dd8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/3b3a8c1cf9b9023e3b5ab43f04279dd8/AndroidManifest.xml:20:5-44
 INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
@@ -205,3 +281,31 @@ INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/ma
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 		ADDED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/andrewaziz/Documents/development/projects/hopper/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/6ececc1295ae39d9bc6fa0183454f4e5/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/21534da016379f9ed94e7124aef341a8/AndroidManifest.xml:24:13-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/651fff1c8a351e43591fa0c225bcc23e/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrewaziz/.gradle/caches/transforms-2/files-2.1/b807abe8da1799ec44383637a715eb40/AndroidManifest.xml:27:13-51

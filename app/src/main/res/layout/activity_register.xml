@@ -3,154 +3,156 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
 
-    <Button
-        android:id="@+id/btnFBSignup"
+    android:background="@drawable/bg_hopper_background">
+
+
+    <ImageView
+        android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="31dp"
-        android:text="@string/sign_up_with_facebook"
-        app:layout_constraintBottom_toTopOf="@+id/tvExistLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvOR2" />
-
-    <TextView
-        android:id="@+id/tvExistLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="90dp"
-        android:text="@string/don_t_have_an_account_create_account"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/tvOR2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="18dp"
-        android:text="@string/or"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnFBSignup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:contentDescription="hopper_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_hopper_logo" />
 
     <TextView
-        android:id="@+id/tvRegsiterTitle"
+        android:id="@+id/tvCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/hopper"
-        android:textSize="36sp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/raleway"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="100dp"
-        android:text="@string/sign_up"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/etFirstName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRegsiterTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
 
     <EditText
         android:id="@+id/etFirstName"
-        android:layout_width="186dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="10dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="@string/first_name"
-        android:inputType="textMultiLine"
-        app:layout_constraintEnd_toStartOf="@+id/etLastName"
+        android:fontFamily="@font/raleway"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.251"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSignup"
-        android:importantForAutofill="no" tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCreateAccount" />
 
     <EditText
         android:id="@+id/etLastName"
-        android:layout_width="182dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="10dp"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="@string/lastname"
-        android:inputType="textMultiLine"
+        android:fontFamily="@font/raleway"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/etFirstName"
-        app:layout_constraintTop_toBottomOf="@+id/tvSignup"
-        android:importantForAutofill="no" tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCreateAccount" />
 
     <EditText
-        android:id="@+id/etSignupEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="12dp"
+        android:id="@+id/etEmailAddress"
+        android:layout_width="295dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/email"
-        android:importantForAutofill="no"
+        android:fontFamily="@font/raleway"
+        android:hint="Email"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/etSignupPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etFirstName"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/etFirstName" />
 
     <EditText
-        android:id="@+id/etSignupPassword"
+        android:id="@+id/etPassword"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailAddress" />
+
+    <ImageView
+        android:id="@+id/ivSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="15dp"
-        android:ems="10"
-        android:hint="@string/password"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/btnSignup"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignupEmail"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:srcCompat="@drawable/ic_signup_box"
+        android:clickable="true"/>
 
-    <Button
-        android:id="@+id/btnSignup"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="17dp"
-        android:text="@string/sign_up"
-        app:layout_constraintBottom_toTopOf="@+id/tvOR2"
+    <ImageView
+        android:id="@+id/ivOrLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignupPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/ivSignUp"
+        app:srcCompat="@drawable/ic_orlines" />
+
+    <TextView
+        android:id="@+id/ivAlreadyHave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/raleway_thin"
+        android:text="Already have an account?"
+        android:textColor="#A2999D"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines" />
+
+    <TextView
+        android:id="@+id/tvLoginMover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="Log in."
+        android:textColor="#958B90"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivAlreadyHave"
+        app:layout_constraintTop_toBottomOf="@+id/ivOrLines" />
+
+
 </android.support.constraint.ConstraintLayout>

@@ -7,9 +7,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Toast;
 
+import com.example.hopper.fragments.MapFragment;
 import com.example.hopper.fragments.PostsFragment;
+import com.example.hopper.fragments.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,15 +32,12 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.action_home:
                         fragment = new PostsFragment();
-                        Toast.makeText(MainActivity.this, "Home!", Toast.LENGTH_SHORT).show();
                         break;
-//                    case R.id.action_map:
-//                        fragment = new Map();
-//                        Toast.makeText(MainActivity.this, "Compose!", Toast.LENGTH_SHORT).show();
-//                        break;
-//                    case R.id.action_profile:
-//                        fragment = new ProfileFragment();
-//                        Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
+                    case R.id.action_map:
+                        fragment = new MapFragment();
+                        break;
+                    case R.id.action_profile:
+                        fragment = new ProfileFragment();
                     default:
                         break;
                 }

@@ -2,6 +2,7 @@ package com.example.hopper;
 
 import android.app.Application;
 
+
 import com.parse.Parse;
 import com.parse.ParseObject;
 
@@ -11,6 +12,7 @@ public class ParseApplication extends Application {
         super.onCreate();
 
         ParseObject.registerSubclass(Post.class);
+
         // set applicationId, and server server based on the values in the Heroku settings.
         // clientKey is not needed unless explicitly configured
         // any network interceptors must be added with the Configuration Builder given this syntax
@@ -20,3 +22,4 @@ public class ParseApplication extends Application {
                 .server("https://tbhopper.herokuapp.com/parse").build());
     }
 }
+
